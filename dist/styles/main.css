@@ -1,0 +1,80 @@
+:root {
+  --win95-bg-green:	#208c71;
+  --win95-bg-gray:	#c3c3c3;
+  --win95-blue: #000080;
+}
+
+@media only screen and (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: var(--win95-bg-green);
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--win95-bg-gray);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-content {
+  padding: 0.5rem;
+  margin: 3px;
+  text-align: left;
+}
+
+.sidenav-content:hover {
+  padding: 0.5rem;
+  background-color: var(--win95-blue);
+  color: #FFFFFF;
+}
+
+.sidenav-icon {
+  display: inline;
+  width: 30px;
+  float: left;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.align-top {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  display: flexbox;
+}
+
+.logo-img {
+  width: 80%;
+  border-radius: 20%;
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-bottom {
+  position: absolute;
+  bottom: 3%;
+  margin: 0;
+  width: 100%;
+}
+p,a,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
