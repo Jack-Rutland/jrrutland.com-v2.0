@@ -1,5 +1,5 @@
 :root {
-  --win95-bg-green:	#208c71;
+  --win95-bg-green:	#008080;
   --win95-bg-gray:	#c3c3c3;
   --win95-blue: #000080;
 }
@@ -18,8 +18,8 @@ body {
 }
 
 .sidenav {
-  height: 100%;
-  width: 160px;
+  height: 100vh;
+  width: 10rem;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -27,6 +27,7 @@ body {
   background-color: var(--win95-bg-gray);
   overflow-x: hidden;
   padding-top: 20px;
+  border-right: 2px solid black;
 }
 
 .sidenav-content {
