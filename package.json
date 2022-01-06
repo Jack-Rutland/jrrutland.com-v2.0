@@ -1,0 +1,20 @@
+{
+  "name": "jrrutland.com-v2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sassy": "sass --watch main.scss dist/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-Rutland/jrrutland.com-v2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jack-Rutland/jrrutland.com-v2.0/issues"
+  },
+  "homepage": "https://github.com/Jack-Rutland/jrrutland.com-v2.0#readme"
+}
